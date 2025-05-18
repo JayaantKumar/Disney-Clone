@@ -1,9 +1,9 @@
 import axios from "axios";
 
 const movieBaseUrl="https://api.themoviedb.org/3"
-const api_key='2ec0d66f5bdf1dd12eefa0723f1479cf'
+const api_key='d6660860ae2cea88e1f7b3daa3f7cfc8'
 
-const movieByGenreBaseURL='https://api.themoviedb.org/3/discover/movie?api_key=2ec0d66f5bdf1dd12eefa0723f1479cf';
+const movieByGenreBaseURL='https://api.themoviedb.org/3/discover/movie?api_key=d6660860ae2cea88e1f7b3daa3f7cfc8';
 
 //https://api.themoviedb.org/3/trending/all/day?api_key=2ec0d66f5bdf1dd12eefa0723f1479cf
 const getTrendingVideos=axios.get(movieBaseUrl+
